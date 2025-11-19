@@ -13,10 +13,8 @@ const Home = () => {
 	return (
 		<div>
 			<Navbar />
-			<div className="container-fluid mt-4 px-5">
+			<div className="container mt-4 px-5">
 				<Hero />
-			</div>
-			<div className="container">
 				<div className="row justify-content-center gap-4">
 					<Card />
 					<Card />
@@ -25,7 +23,6 @@ const Home = () => {
 				</div>
 			</div>
 			<Footer />
-
 		</div>
 	);
 };
